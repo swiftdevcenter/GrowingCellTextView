@@ -11,12 +11,12 @@ Auto growing UITextView in UITableViewCell based on content
 
 
 
-#Auther
+# Auther
 SwiftDevCenter, swiftdevcenter@gmail.com
 
-#For more detail
+# For more detail
 http://www.swiftdevcenter.com/
 
-#License
+# License
 GrowingCellTextView is available under the MIT license. See the LICENSE file for more info.
 
