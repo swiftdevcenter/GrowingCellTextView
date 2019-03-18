@@ -14,7 +14,7 @@ Auto growing UITextView in UITableViewCell based on content
 # Auther
 SwiftDevCenter, swiftdevcenter@gmail.com
 
-# For more detail
+# For more detail visit
 http://www.swiftdevcenter.com/
 
 # License
