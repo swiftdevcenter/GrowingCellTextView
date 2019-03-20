@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -43,7 +44,6 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: GrowingCellProtocol {
     
-    // Update height of UITextView based on string height
     func updateHeightOfRow(_ cell: GrowingCell, _ textView: UITextView) {
         let size = textView.bounds.size
         let newSize = tableView.sizeThatFits(CGSize(width: size.width,

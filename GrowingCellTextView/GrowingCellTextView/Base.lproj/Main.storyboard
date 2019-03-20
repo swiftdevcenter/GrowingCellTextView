@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="74" width="375" height="593"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dynamic height of Cell with UITextView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6j-cH-Y40">
-                                <rect key="frame" x="16" y="35" width="343" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The dynamic height of UITextView inside UITableViewCell" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6j-cH-Y40">
+                                <rect key="frame" x="46" y="20" width="283" height="46"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="vbl-iR-3r0"/>
+                                    <constraint firstAttribute="height" constant="46" id="vbl-iR-3r0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -36,11 +36,11 @@
                         <constraints>
                             <constraint firstItem="8vH-Re-fSM" firstAttribute="top" secondItem="h6j-cH-Y40" secondAttribute="bottom" constant="8" id="2yx-3w-RIf"/>
                             <constraint firstItem="8vH-Re-fSM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6FU-Hh-Q3z"/>
-                            <constraint firstItem="h6j-cH-Y40" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MGD-0A-xPm"/>
+                            <constraint firstItem="h6j-cH-Y40" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="MGD-0A-xPm"/>
                             <constraint firstItem="8vH-Re-fSM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="S28-qu-XQG"/>
                             <constraint firstItem="8vH-Re-fSM" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cpH-YW-qhb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h6j-cH-Y40" secondAttribute="trailing" constant="16" id="o3a-Ix-WH1"/>
-                            <constraint firstItem="h6j-cH-Y40" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="wi4-NQ-3qm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h6j-cH-Y40" secondAttribute="trailing" constant="46" id="o3a-Ix-WH1"/>
+                            <constraint firstItem="h6j-cH-Y40" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wi4-NQ-3qm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
